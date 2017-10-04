@@ -48,7 +48,7 @@ verbose=True
 save_model=True
 
 ###input/output###
-output_dir="output_tmp"
+output_dir="output"
 train_data="data/train_data/training.json.all"
 train_label="data/train_label/training.json.all"
 valid_data="data/valid/data.tweet.json"
