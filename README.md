@@ -61,3 +61,7 @@ optional arguments:
 - Example script is given in: compute_map.sh
 - The idea is to first generate binary code representation for train and test data, and then use retrieval_map to compute hamming distance and MAP
 - In the example script, we use the validation data as the train data, as it is much smaller
+
+# Publication
+
+Lau, Jey Han, Lianhua Chi, Khoi-Nguyen Tran and Trevor Cohn (to appear). End-to-end Network for Twitter Geolocation Prediction and Hashing. In Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP 2017), Taipei, Taiwan.
