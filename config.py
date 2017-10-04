@@ -45,12 +45,12 @@ usertime_size=10
 
 ###misc###
 verbose=True
-save_model=False
+save_model=True
 
 ###input/output###
 output_dir="output_tmp"
-#train_data="data/train_data/training.json.all"
-#train_label="data/train_label/training.json.all"
+train_data="data/train_data/training.json.all"
+train_label="data/train_label/training.json.all"
 valid_data="data/valid/data.tweet.json"
 valid_label="data/valid/label.tweet.json"
 output_prefix="wmin%d_smin%d_bucket%s_batch%d_epoch%d_kp%.1f_seed%d_lr%.4f_h%d_cl%.3f_a%.3f_text%d-%d-%d_time%d_day%d_offset%d_tz%d_loc%d-%d-%d-%d_desc%d-%d-%d-%d_name%d-%d-%d-%d_utime%d" % \
