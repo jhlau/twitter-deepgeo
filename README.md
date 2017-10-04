@@ -57,6 +57,7 @@ optional arguments:
 #### Example: Print character attention in test data
 `python geo_test.py -m MODEL_DIR -d data/test/data.tweet.json -l data/test/label.tweet.json --print_attn`
 
-# Compute MAP Performance (using test data against valid data)
-- Example script is given: compute_map.sh
-- The idea is to first generate binary code representation for valid and test data, and then use retrieval_map to compute hamming distance and MAP
+# Compute MAP Performance
+- Example script is given in: compute_map.sh
+- The idea is to first generate binary code representation for train and test data, and then use retrieval_map to compute hamming distance and MAP
+- In the example script, we use the validation data as the train data, as it is much smaller
