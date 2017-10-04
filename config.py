@@ -10,7 +10,7 @@ epoch_size=10
 keep_prob=0.8
 seed=1
 learning_rate=0.001
-rep_hidden_size=100 #penultimate representation layer size
+rep_hidden_size=400 #penultimate representation layer size
 corruption_level=0.0 #gaussian standard deviation of noise
 alpha=0.0 #sparsity loss factor
 #text feature
