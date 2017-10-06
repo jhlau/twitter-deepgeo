@@ -161,7 +161,7 @@ print ("Valid:\n\tmean/max text len = %.2f/%d;" + \
 #train model
 with tf.Graph().as_default(), tf.Session() as sess:
     tf.set_random_seed(cf.seed)
-    initializer = tf.contrib.layers.xavier_initializer(seed=cf.seed)
+    initializer = tf.contrib.layers.xavier_initializer()
     mtrains, mvalids = [], []
     with tf.variable_scope("model", reuse=None, initializer=initializer):
         mtrains.append(TGP(is_training=True, vocab_size=len(idxvocab), num_steps=cf.bucket_sizes[0], \
