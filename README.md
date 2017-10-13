@@ -22,6 +22,8 @@
 - `python geo_train.py`
 - Configurations are all defined in config.py
 - The default values are the optimal hyper-parameter settings used in the paper
+- Note that the first epoch can take a long time to finish (potentially 6+ hours), but subsequent epochs should run fairly quickly. The slow start is due to network initialisation.
+- On a single K80 GPU, it takes around 25-30 hours to train 10 epochs on the full training data.
 
 # Test
 ```
