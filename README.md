@@ -66,4 +66,4 @@ optional arguments:
 
 # Publication
 
-Lau, Jey Han, Lianhua Chi, Khoi-Nguyen Tran and Trevor Cohn (to appear). End-to-end Network for Twitter Geolocation Prediction and Hashing. In Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP 2017), Taipei, Taiwan.
+Lau, Jey Han, Lianhua Chi, Khoi-Nguyen Tran and Trevor Cohn (to appear). [End-to-end Network for Twitter Geolocation Prediction and Hashing](https://arxiv.org/abs/1710.04802). In Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP 2017), Taipei, Taiwan.
