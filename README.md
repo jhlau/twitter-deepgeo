@@ -11,7 +11,7 @@
 - For training tweets, use the training downloader script from [WNUT Workshop 2016](http://noisy-text.github.io/2016/geo-shared-task.html). The script will fetch the training tweet metadata from the official API
 
 # Pre-trained Models
-- Pre-trained models can be downloaded [here](https://ibm.box.com/s/q3do4wzas31dpg9121ljlati093gn2cr) (1.6GB)
+- Pre-trained models can be downloaded [here](https://unimelbcloud-my.sharepoint.com/:f:/g/personal/jeyhan_lau_unimelb_edu_au/EgzpOQsDqjJIqN8Pd0DksgUBGXr6oW4NX1csPPWBjYFr-Q?e=3dqgGg) (2017-ijcnlp-deepgeo; 1.6GB)
 - There are a total of 12 models:
   - deepgeo_RXXX: R=XXX, sigma=0.0, alpha=0.0
   - deepgeo_RXXX_noise: R=XXX, sigma=0.1, alpha=0.0
