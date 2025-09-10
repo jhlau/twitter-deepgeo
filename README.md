@@ -11,7 +11,7 @@
 - For training tweets, use the training downloader script from [WNUT Workshop 2016](http://noisy-text.github.io/2016/geo-shared-task.html). The script will fetch the training tweet metadata from the official API
 
 # Pre-trained Models
-- Pre-trained models can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au:443/mflux/share.mfjp?_token=7EUdoUvR3wREInlek9tl112828726&browser=true&filename=deepgeo_models.tgz) (2017-ijcnlp-deepgeo/deepgeo_models.tgz; 1.6GB)
+- Pre-trained models can be downloaded [here](https://mediaflux.researchsoftware.unimelb.edu.au/mflux/data/mover/index.html?token=kg48rxcqq76v15kvwwsfj2iqkvmijugyydjrqr2jq8gseyh4ojrt1nw0rg3dq2k70l23lv5klxose7z8nrm7eccvx47plvynjglwrrnpjkjgy0v6ye9ng12j569set7ber6s1v2vn12zedkn10mj2kw7aad7u0jeghyak4zkqddlea9zeaobzm1706w2tule5gk515gtx3jks9wmdwjciche9tkt4pfo1waqdaup) (note: you'll be prompted to download a program called "Mediaflux Data Mover" - after installing it, click the link again and open Mediaflux Data Mover and you'll be able to download the data via the program).
 - There are a total of 12 models:
   - deepgeo_RXXX: R=XXX, sigma=0.0, alpha=0.0
   - deepgeo_RXXX_noise: R=XXX, sigma=0.1, alpha=0.0
